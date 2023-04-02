@@ -1,0 +1,27 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>homework 2 </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    
+    <body>
+        <h1>Images and image maps</h1>
+    
+        <img src="image.jpg" alt="Image" width="250" height="100"><br>
+    
+        <img src="image.jpg" alt="Image" usemap="#map" width="250" height="100">
+        <map name="map">
+            <area shape="circle" coords="0,10,120,70" href="http://www.coordinates.com">
+            <area shape="sphere" coords="150,80,200" href="http://www.coordinates.com">
+        </map>
+    
+        <p style="color: red;">This text is red.</p>
+        <p style="color: green;">This text is green.</p>
+        <p style="color: blue;">This text is blue.</p>
+    
+    </body>
+    </html>
